@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PickupTwo — live pickup desk</title>
+  <meta name="description" content="Two live-instrument bars of pickup so the chorus does not slam in cold." />
+  <meta name="theme-color" content="#100e0c" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<main>
+  <p class="eyebrow">WorkinWithAI · live chairs</p>
+  <h1>PickupTwo</h1>
+  <p class="lead">Two live bars of pickup so a hook that already has a vocal and a kit finally has a doorway. Not a count-in click. Not a riser sample. Not a hard cut from verse silence. Session players write a pickup — walk-up, snare flam, brass lift, bass climb — then the chorus starts like someone meant it.</p>
+  <p class="status" id="status">Seating chairs…</p>
+  <p class="eyebrow">Groove</p>
+  <div class="row" id="grooves"></div>
+  <p class="eyebrow">Pickup</p>
+  <div class="row" id="recipes"></div>
+  <p class="eyebrow">Form · verse 1–4 · pickup 5–6 · chorus 7–8</p>
+  <div class="bars" id="bars"></div>
+  <h2>Punch list</h2>
+  <pre id="punch"></pre>
+</main>
+<div class="dock">
+  <button id="playA">A · Verse loop</button>
+  <button id="playB">B · Full pass</button>
+  <button id="playP">P · Pickup only</button>
+  <button class="ghost" id="stop">Stop</button>
+  <button class="ghost" id="copy">Copy punch</button>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
